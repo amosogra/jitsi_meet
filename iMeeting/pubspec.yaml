@@ -1,18 +1,18 @@
-name: jitsi_meet_example
+name: iMeeting
 description: Demonstrates how to use the jitsi_meet plugin.
 version: 0.1.2
 publish_to: 'none'
 
 
 environment:
-  sdk: ">=2.1.0 <3.0.0"
+  sdk: ">=2.6.0 <3.0.0"
 
 dependencies:
   flutter:
     sdk: flutter
 
-  jitsi_meet:
-    path: ../
+  jitsi_meet: ^2.0.0
+    #path: ../
 
   # The following adds the Cupertino Icons font to your application.
   # Use with the CupertinoIcons class for iOS style icons.
